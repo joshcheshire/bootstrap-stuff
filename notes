@@ -1,0 +1,25 @@
+Bootstrap is a css framework
+		-contains classes and CSS that are pre-defined for your use
+		-responsivity and mobile first development(especially the grid system)
+
+		--Tons of components
+			typography, layout, forms, buttons
+
+		-Normalize CSS  is baked in
+
+
+
+
+	grid system is a 12 column grid system- the horizontal space in the browser is broken up into 12 columns-
+	--Some classes are required for the grid to work:
+												1. container class or .container   ---- .container - fluid (fluid will always be 100% of the page)
+												2. row class or .row
+												3. column class or .col-
+
+												<div class = "container">
+													<div class = "row">
+														<div class = " col-xs-12">
+														</div>
+													</div>
+												</div>
+							DONT CHANGE PADDING ON ROWS OR COLUMNS!!!!!
